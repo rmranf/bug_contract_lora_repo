@@ -1,0 +1,32 @@
+{
+  "phase": "contract_first_v1",
+  "allowed_target_types": [
+    "judgment",
+    "reflection",
+    "thought_action"
+  ],
+  "excluded_target_types": [
+    "step_clusters"
+  ],
+  "positive_examples_count": 747,
+  "reviewed_gold_total": 15,
+  "training_ready_gold_count": 10,
+  "training_ready_gold_by_target_type": {
+    "judgment": 2,
+    "reflection": 2,
+    "thought_action": 6
+  },
+  "canonical_training_count": 757,
+  "mixed_oversampled_gold_multiplier": 10,
+  "mixed_oversampled_training_count": 847,
+  "recommended_phase1": {
+    "name": "positive_warmup",
+    "dataset": "execution_contract_training_chat_v1.jsonl",
+    "notes": "Use to stabilize baseline contract format."
+  },
+  "recommended_phase2": {
+    "name": "mixed_contract_tuning",
+    "dataset": "execution_contract_training_chat_mixed_goldx10_v1.jsonl",
+    "notes": "Use to upweight repaired gold contract failures after warmup."
+  }
+}

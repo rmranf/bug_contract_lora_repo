@@ -1,0 +1,40 @@
+{
+  "phase": "command_semantic_v1",
+  "positive_command_examples_count": 452,
+  "failure_queue_count": 70,
+  "gold_draft_count": 70,
+  "training_ready_gold_count": 27,
+  "canonical_training_count": 479,
+  "mixed_goldx_count": 722,
+  "gold_oversample": 10,
+  "failure_family_counts": {
+    "gamemode": 21,
+    "give": 12,
+    "tp": 7,
+    "summon": 4,
+    "kill": 2,
+    "execute": 1,
+    "fill": 1,
+    "function": 1,
+    "gamerule": 1,
+    "keybind": 1,
+    "quit": 1,
+    "scoreboard": 1,
+    "setblock": 1,
+    "setworldname": 1,
+    "time": 1,
+    "worldborder": 1,
+    "worldmenu": 1
+  },
+  "failure_code_counts": {
+    "iteration_limit_exceeded": 55,
+    "thought_action_parse_failed": 8,
+    "macro_bad_payload": 7
+  },
+  "gold_confidence_counts": {
+    "low": 43,
+    "medium": 25,
+    "high": 2
+  },
+  "review_required_count": 43
+}

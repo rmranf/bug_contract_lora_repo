@@ -1,0 +1,17 @@
+{
+  "phase": "command_loop_suppression_v1",
+  "sample_count": 3,
+  "loop_oversample": 10,
+  "families": [
+    "setblock",
+    "tp"
+  ],
+  "source_gold_path": "experiments/results/tuning/qwen35_command_semantic_2026-04-08/command_semantic_gold_training_ready_v1.jsonl",
+  "output_path": "experiments/results/tuning/qwen35_command_semantic_2026-04-08/command_loop_suppression_training_chat_v1.jsonl",
+  "base_canonical_count": 479,
+  "base_mixed_count": 722,
+  "merged_canonical_count": 482,
+  "merged_mixed_count": 752,
+  "merged_canonical_path": "experiments/results/tuning/qwen35_command_semantic_2026-04-08/command_semantic_training_chat_with_loop_v1.jsonl",
+  "merged_mixed_path": "experiments/results/tuning/qwen35_command_semantic_2026-04-08/command_semantic_training_chat_mixed_goldx10_with_loopx10_v1.jsonl"
+}

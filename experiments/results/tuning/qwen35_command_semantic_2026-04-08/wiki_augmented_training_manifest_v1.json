@@ -1,0 +1,60 @@
+{
+  "wiki_reference_path": "C:\\bugcraft\\bugcraft\\experiments\\results\\tuning\\wiki_command_reference_2026-04-13\\wiki_command_reference_v1.json",
+  "families": [
+    "gamemode",
+    "give",
+    "setblock",
+    "summon",
+    "tp"
+  ],
+  "outputs": {
+    "command_semantic_training_chat_with_loop_with_wiki_v1.jsonl": {
+      "input": "experiments\\results\\tuning\\qwen35_command_semantic_2026-04-08\\command_semantic_training_chat_with_loop_v1.jsonl",
+      "output": "experiments\\results\\tuning\\qwen35_command_semantic_2026-04-08\\command_semantic_training_chat_with_loop_with_wiki_v1.jsonl",
+      "row_count": 482,
+      "wiki_augmented_count": 350,
+      "family_counts": {
+        "summon": 26,
+        "gamemode": 195,
+        "tp": 25,
+        "give": 100,
+        "setblock": 4
+      }
+    },
+    "command_semantic_training_chat_mixed_goldx10_with_loopx10_with_wiki_v1.jsonl": {
+      "input": "experiments\\results\\tuning\\qwen35_command_semantic_2026-04-08\\command_semantic_training_chat_mixed_goldx10_with_loopx10_v1.jsonl",
+      "output": "experiments\\results\\tuning\\qwen35_command_semantic_2026-04-08\\command_semantic_training_chat_mixed_goldx10_with_loopx10_with_wiki_v1.jsonl",
+      "row_count": 752,
+      "wiki_augmented_count": 350,
+      "family_counts": {
+        "summon": 26,
+        "gamemode": 195,
+        "tp": 25,
+        "give": 100,
+        "setblock": 4
+      }
+    },
+    "gamemode_focus_training_chat_with_wiki_v1.jsonl": {
+      "input": "experiments\\results\\tuning\\qwen35_command_semantic_2026-04-08\\gamemode_focus_training_chat_v1.jsonl",
+      "output": "experiments\\results\\tuning\\qwen35_command_semantic_2026-04-08\\gamemode_focus_training_chat_with_wiki_v1.jsonl",
+      "row_count": 229,
+      "wiki_augmented_count": 201,
+      "family_counts": {
+        "gamemode": 195,
+        "tp": 1,
+        "give": 5
+      }
+    },
+    "gamemode_focus_training_chat_loopx20_with_wiki_v1.jsonl": {
+      "input": "experiments\\results\\tuning\\qwen35_command_semantic_2026-04-08\\gamemode_focus_training_chat_loopx20_v1.jsonl",
+      "output": "experiments\\results\\tuning\\qwen35_command_semantic_2026-04-08\\gamemode_focus_training_chat_loopx20_with_wiki_v1.jsonl",
+      "row_count": 289,
+      "wiki_augmented_count": 201,
+      "family_counts": {
+        "gamemode": 195,
+        "tp": 1,
+        "give": 5
+      }
+    }
+  }
+}

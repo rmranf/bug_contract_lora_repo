@@ -1,0 +1,33 @@
+{
+  "phase": "gamemode_focus_v1",
+  "source_training_path": "experiments/results/tuning/qwen35_command_semantic_2026-04-08/command_semantic_training_chat_with_loop_v1.jsonl",
+  "source_failure_path": "experiments/results/tuning/qwen35_command_semantic_2026-04-08/command_semantic_failure_queue_v1.jsonl",
+  "training_count": 229,
+  "training_loopx20_count": 289,
+  "loop_row_count": 3,
+  "loop_oversample": 20,
+  "failure_count": 43,
+  "split_counts": {
+    "dev": 4,
+    "test": 3,
+    "train": 222
+  },
+  "source_counts": {
+    "command_loop_suppression_v1": 3,
+    "command_semantic_gold_training_ready_v1": 18,
+    "command_semantic_positive_examples_v1": 208
+  },
+  "failure_split_counts": {
+    "dev": 7,
+    "test": 9,
+    "train": 27
+  },
+  "failure_code_counts": {
+    "iteration_limit_exceeded": 34,
+    "macro_bad_payload": 5,
+    "thought_action_parse_failed": 4
+  },
+  "output_training_path": "experiments/results/tuning/qwen35_command_semantic_2026-04-08/gamemode_focus_training_chat_v1.jsonl",
+  "output_training_loopx_path": "experiments/results/tuning/qwen35_command_semantic_2026-04-08/gamemode_focus_training_chat_loopx20_v1.jsonl",
+  "output_failure_path": "experiments/results/tuning/qwen35_command_semantic_2026-04-08/gamemode_focus_failure_queue_v1.jsonl"
+}
